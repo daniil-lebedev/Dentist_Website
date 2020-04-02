@@ -121,7 +121,7 @@ STATICFILES_DIRS = [
     
 ]
 
-STATICFILES_STORAGE == 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 '''
 EMAIL_HOST = 'smtp.gmail.com'#if this doesn't work, use google
