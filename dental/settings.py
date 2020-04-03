@@ -3,7 +3,7 @@
 import os
 import django_heroku
 import dj_database_url
-from decople import config
+from decouple import config
 
 
 
@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website'
+    'website',
 ]
 
 MIDDLEWARE = [
